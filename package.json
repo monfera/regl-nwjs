@@ -1,0 +1,38 @@
+{
+  "name": "monfera",
+  "version": "1.0.0",
+  "description": "Generate WebGL content with regl in nw.js and output an image",
+  "main": "index.html",
+  "window": {
+    "title": "regl nwjs png test",
+    "toolbar": false,
+    "frame": true,
+    "width": 480,
+    "height": 480,
+    "position": "center",
+    "resizable": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monfera/regl-nwjs.git"
+  },
+  "keywords": [
+    "regl",
+    "nwjs",
+    "png",
+    "webgl"
+  ],
+  "author": "Robert Monfera <monfera.robert@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monfera/regl-nwjs/issues"
+  },
+  "homepage": "https://github.com/monfera/regl-nwjs#readme",
+  "dependencies": {
+    "nwjs": "^1.4.3",
+    "regl": "^1.3.0"
+  }
+}
